@@ -12,10 +12,9 @@
       <change afterPath="$PROJECT_DIR$/../BibliotecaLiskov-main/out/production/BibliotecaLiskov-main/br/edu/fescfafic/biblioteca/Biblioteca2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BibliotecaLiskov-main/out/production/BibliotecaLiskov-main/br/edu/fescfafic/biblioteca/out/production/Biblioteca2/br/edu/fescfafic/biblioteca/Biblioteca2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../EstruturaSequencial/EstruturaSequencial.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/catolica/PadraoDAO/Model/Carro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/catolica/PadraoDAO/Model/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/catolica/PadraoDAO/Model/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/edu/catolica/PadraoDAO/Model/Venda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/catolica/PadraoDAO/DAO/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/catolica/PadraoDAO/DAO/FuncionarioDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/edu/catolica/PadraoDAO/DAO/VendaDAO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SOLID/SOLID.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SOLID/src/br/edu/fescfafic/responsabilidade/unica/Model/Cliente.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../SOLID/src/br/edu/fescfafic/responsabilidade/unica/Model/ClienteFisico.java" afterDir="false" />
@@ -102,6 +101,9 @@
       <change afterPath="$PROJECT_DIR$/../substituicaoDeLiscov/src/br/edu/fescfafic/substituicaoLiscov/Model/Gato.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../substituicaoDeLiscov/substituicaoDeLiscov.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/catolica/PadraoDAO/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/catolica/PadraoDAO/Main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,29 +119,32 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QFWuCz9HXOx6R6idY0pWcV8U6k" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/dawyl/IdeaProjects/PadraoDAO",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dawyl/IdeaProjects/PadraoDAO&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
